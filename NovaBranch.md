@@ -3,7 +3,10 @@
 Para trocar da branch main para uma nova e inexistente, usamos o comando: <br>
 -- git checkout -b "nova-branch"
 
-Agora para subir os arquivos nossa nova branch: <br>
+Agora para subir os arquivos na nova branch, deve se seguir os mesmos passos de sempre: <br>
+-- git add . <br>
+-- git status <br>
+-- git commit -m "comentario" <br>
 -- git push origin nova-branch
 
 Caso queria trocar para a branch do main ou para alguma outra existente <br>
